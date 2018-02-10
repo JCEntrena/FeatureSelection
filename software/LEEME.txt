@@ -1,0 +1,11 @@
+Archivos: Cada archivo .rb contienen una clase, siendo las siguientes:
+  selector.rb: programa principal
+  Classifier.rb: clasificador KNN
+  PartitionSelector.rb: lector de datos y creador de particiones
+  random.rb: generador de soluciones aleatorias
+
+  El resto de archivos contienen la heurística que lleva su nombre, salvo los algoritmos genéticos y meméticos, que se encuentran en un mismo archivo.
+  Para ejecutar cada versión, existe el método "solve" que llama a una de las dos versiones con los mismos parámetros.
+
+Dataset: Conjunto de datos del programa. Es importante que la carpeta se encuentre en el mismo directorio que selection.rb,
+pues toma una ruta relativa a la hora de leer los datos.

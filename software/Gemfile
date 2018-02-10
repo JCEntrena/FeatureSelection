@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+
+# Bundler
+gem 'bundler'
+# WEKA gem.
+gem 'weka'
